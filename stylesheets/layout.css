@@ -250,3 +250,12 @@ body > section > header,
     display: block;
   }
 }
+
+/* Inversion Version */
+
+* { display: none; }
+
+body {
+  display: block;
+  background-color: blue;
+}
