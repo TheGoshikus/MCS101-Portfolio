@@ -253,9 +253,11 @@ body > section > header,
 
 /* Inversion Version */
 
-* { display: none; }
+@media all and (inverted-colors) {
+  * { display: none; }
 
-body {
-  display: block;
-  background-color: blue;
+  body {
+    display: block;
+    background-color: blue;
+  }  
 }
